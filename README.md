@@ -17,7 +17,7 @@ NOTE: This step requires the installation of dynverse, as shown at https://dynve
 
 ##Trajectory Analysis with Tradeseq was then carried out using the following code:
   * trajectory_inference_tradeseq.R
-  ##Input file:
+##Input file:
 * HighresXyside.rds
 * Stem_Tradeseq_Xylem.rds
   * Outputs:

@@ -8,17 +8,17 @@ Data from "Response to: “Merit of integrating in situ transcriptomics and anat
 
 
 
-###Integration of SnRNA-seq _Populus_trichocarpa_ stem reps 1 and 2
-###On Asc-Seurat, perform the integration using the file "Configuration_file_for_integration_analysis_SnRNAseq" as input and the default parameters of Asc-Seurat. 
+### Integration of SnRNA-seq _Populus_trichocarpa_ stem reps 1 and 2
+### On Asc-Seurat, perform the integration using the file "Configuration_file_for_integration_analysis_SnRNAseq" as input and the default parameters of Asc-Seurat. 
 
 Once the integrated data is generated, it is possible to infer the developmental trajectories. Data should be reclustered according to the clustering guide in additional file 9.
 
 NOTE: This step requires the installation of dynverse, as shown at https://dynverse.org/users/1-installation/. In addition, Docker must be installed and running since dynverse requires it.
 
-###Trajectory Analysis with Tradeseq was then carried out using the following code:
+### Trajectory Analysis with Tradeseq was then carried out using the following code:
   * trajectory_inference_tradeseq.R
 
-####Input file:
+#### Input file:
 * HighresXyside.rds
 * Stem_Tradeseq_Xylem.rds
   * Outputs:

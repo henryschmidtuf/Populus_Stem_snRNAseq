@@ -15,9 +15,10 @@ Once the integrated data is generated, it is possible to infer the developmental
 
 NOTE: This step requires the installation of dynverse, as shown at https://dynverse.org/users/1-installation/. In addition, Docker must be installed and running since dynverse requires it.
 
-##Trajectory Analysis with Tradeseq was then carried out using the following code:
+#Trajectory Analysis with Tradeseq was then carried out using the following code:
   * trajectory_inference_tradeseq.R
-##Input file:
+
+#Input file:
 * HighresXyside.rds
 * Stem_Tradeseq_Xylem.rds
   * Outputs:

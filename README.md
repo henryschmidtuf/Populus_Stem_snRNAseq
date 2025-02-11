@@ -22,5 +22,9 @@ NOTE: This step requires the installation of dynverse, as shown at https://dynve
 * HighresXyside.rds
 * Stem_Tradeseq_Xylem.rds
   * Outputs:
-    - 
+  * EarlyDETest_Knots5,6FDRcorrected.csv
+  * Tradeseq_diffEndTest_FDR.csv
+  * 1.22.25_LINEAGE1_DEGs_tradeseq.csv
+  * 1.22.25_DEGs_within_traj_of_lineage_2.csv
+  * 
 

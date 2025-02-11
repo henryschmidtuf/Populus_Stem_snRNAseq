@@ -11,6 +11,7 @@ Data from "Response to: “Merit of integrating in situ transcriptomics and anat
 
 
 NOTE: These steps requires the installation of dynverse, as shown at https://dynverse.org/users/1-installation/. In addition, Docker must be installed and running since dynverse requires it.
+
 The .R code " SessionInfo.R" can be utilized to view and install all necessary packages and their respective versions utilized in this analyis. 
 
 ### Integration of SnRNA-seq _Populus_trichocarpa_ stem reps 1 and 2
@@ -32,5 +33,19 @@ Once the integrated data is generated, it is possible to infer the developmental
   * Tradeseq_diffEndTest_FDR.csv
   * 1.22.25_LINEAGE1_DEGs_tradeseq.csv
   * 1.22.25_DEGs_within_traj_of_lineage_2.csv
-  * 
+  * Tradeseq_association_test_output.xlsx
+
+
+### Protoplast and Nuclei Single-cell Comparison study
+Protoplast Data was downloaded and processed on CellRanger using the following scripts:
+* Download_protoplastData.sh
+* PopCellRanger_Proto_Xylem2_counts.sh
+* PopCellRanger_Proto_Phloem1to8.sh
+* PopCellRanger_Proto_Xylem3to8_counts.sh
+
+After protoplast data is downloaded and processed, using Asc-Seurat, perform the integration using the file "configuration_file_for_integration_analysisComparison.csv" as input and the default parameters of Asc-Seurat. 
+
+The following code was utilized to generate the plots for Figure1: 
+Figure1DotplotCodeKnownMarkers.R
+  
 

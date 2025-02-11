@@ -14,6 +14,11 @@ Data from "Response to: “Merit of integrating in situ transcriptomics and anat
 Once the integrated data is generated, it is possible to infer the developmental trajectories. Data should be reclustered according to the clustering guide in additional file 9.
 
 NOTE: This step requires the installation of dynverse, as shown at https://dynverse.org/users/1-installation/. In addition, Docker must be installed and running since dynverse requires it.
+The .R code " SessionInfo.R" can be utilized to view and install all necessary packages and their respective versions utilized in this analyis. 
+
+
+
+
 
 ### Trajectory Analysis with Tradeseq was then carried out using the following code:
   * trajectory_inference_tradeseq.R

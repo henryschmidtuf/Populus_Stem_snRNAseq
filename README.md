@@ -1,6 +1,6 @@
 # Scripts to reproduce the snRNA-seq analysis of Populus trichocarpa stem
 ## Introduction
-This repository contains the source code necessary to reproduce the results described in the manuscript "________"
+This repository contains the source code necessary to reproduce the results described in the manuscript "Single-cell genomics of Populus stem reveals distinct cell population and developmental tracing of cambial derivatives"
 
 Clustered .rds files necessary as inputs for analysis steps below can be downloaded from Figshare: https://doi.org/10.6084/m9.figshare.28392170.v1
 
@@ -8,6 +8,7 @@ The clustering of the snRNA-seq data was performed on Asc-Seurat v2.1.
 
 The Protoplast single-cell data utilized for the comparative analysis from the article titled "Transcriptional landscape of highly lignified poplar stems at single-cell resolution" Genome Biol 22, 319 (2021). https://doi.org/10.1186/s13059-021-02537-2, was downloaded from NGDC BioProject Accession number PRJCA005543 (https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA005543). 
 Data from "Response to: “Merit of integrating in situ transcriptomics and anatomical information for cell annotation and lineage construction in single-cell analyses of Populus”" Genome Biol 25, 86 (2024). https://doi.org/10.1186/s13059-024-03228-4 was downloaded from Zenodo - https://doi.org/10.5281/zenodo.10691111 
+
 
 
 NOTE: These steps requires the installation of dynverse, as shown at https://dynverse.org/users/1-installation/. In addition, Docker must be installed and running since dynverse requires it.

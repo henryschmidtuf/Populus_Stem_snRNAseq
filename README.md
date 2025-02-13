@@ -21,7 +21,7 @@ On Asc-Seurat, perform the integration using the file "Configuration_file_for_in
 
 
 Once the integrated data is generated, it is possible to infer the developmental trajectories. Data should be reclustered according to the clustering guide in additional file 9.
-* Output: HighresXyside.rds
+* Output: XylemTrajectorysubsetNoC1.rds
   
 ### Trajectory Analysis with Tradeseq was then carried out using the following code:
   * trajectory_inference_tradeseq.R
